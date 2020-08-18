@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+<!-- NOTE: link between html and css -->
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="stylesheet" type="text/css" href="pages.css"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- NOTE: its a header-->
+    <div class="topnav">
+
+      <div class="dropdown">
+          <button class="dropbtn">
+            <a class="active" href="./index.html">Home</a>
+          </button>
+          <div class="dropdown-content">
+            <a href="pages/INTRODUCTION.html">INTRODUCTION</a>
+            <a href="pages/GARAF-KM-METHODOLOGIES.html">GARAF KM METHODOLOGIES</a>
+            <a href="pages/THE-KEY-OBJECTIVES-OF-KM.html">THE KEY OBJECTIVES OF KM</a>
+            <a href="pages/GARRAF-KM-STRUCTURE.html">GARRAF KM STRUCTURE</a>
+            <a href="pages/KM-ACTIVITIES-IN-GARRAF.html">KM ACTIVITIES IN GARRAF</a>
+            <a href="pages/SKILL-KNOWLEDGE-EXCHANGE-HUB.html">SKILL: KNOWLEDGE EXCHANGE HUB</a>
+            <a href="pages/CONTACT-US.html">CONTACT US</a>
+
+          </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn">Knowledge Management
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="pages/Lesson-Learnt.html">Lesson Learnt</a>
+            <a href="pages/Best-Practice.html">Best Practice</a>
+            <a href="pages/Publication.html">Publicatio</a>
+          </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn">Expert Interview
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="pages/Garraf-Journey.html">Garraf Journey</a>
+            <a href="pages/Our-Leader.html">Our Leader</a>
+            <a href="pages/People-Experience.html">People Experience</a>
+          </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn">Garraf Knowledge Cafe
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="pages/Knowledge-Sharing.html">Knowledge Sharing</a>
+            <a href="pages/GKC-2018.html">GKC 2018</a>
+            <a href="pages/GKC-2019.html">GKC 2019</a>
+            <a href="pages/GKC-2020.html">GKC 2020</a>
+          </div>
+      </div>
+
+    </div>
+
+
+  </head>
+  <body>
+
+
+<!-- NOTE: its a Slideshow container-->
+    <div class="first-Text">
+      <h1>GARRAF KM</h1>
+    </div>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="img/slide/1.jpg" style="width:100%">    <!-- NOTE: location of image -->
+        <div class="text"></div>                    <!-- NOTE: name for the image -->
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="img/slide/2.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="img/slide/3.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="img/slide/4.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="img/slide/5.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="img/slide/6.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+    </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+    <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000);                                  // NOTE: // Change image every 4 seconds
+    }
+    </script>
+
+
+
+
+  </body>
+
+
+
+
+
+<!-- NOTE: footer -->
+
+<footer>
+  <div class="footer">
+    <div class="inner-footer">
+
+
+
+      <div class="footer-items">
+        <h2>Home</h2>
+        <div class="border"></div>
+        <ul>
+          <a href="pages/INTRODUCTION.html"><li>INTRODUCTION</li></a>
+          <a href="pages/GARAF-KM-METHODOLOGIES.html"><li>GARAF KM METHODOLOGIES</li></a>
+          <a href="pages/THE-KEY-OBJECTIVES-OF-KM.html"><li>THE KEY OBJECTIVES OF KM</li></a>
+          <a href="pages/GARRAF-KM-STRUCTURE.html"><li>GARRAF KM STRUCTURE</li></a>
+          <a href="pages/KM-ACTIVITIES-IN-GARRAF.html"><li>KM ACTIVITIES IN GARRAF</li></a>
+          <a href="pages/SKILL-KNOWLEDGE-EXCHANGE-HUB.html"><li>SKILL:KNOWLEDGE EXCHANGE HUB</li></a>
+          <a href="pages/CONTACT-US.html"><li>CONTACT US</li></a>
+        </ul>
+      </div>
+      <div class="footer-items">
+        <h2>Knowledge Management</h2>
+        <div class="border"></div>
+        <ul>
+          <a href="pages/Lesson-Learnt.html"><li>Lesson Learnt</li></a>
+          <a href="pages/Best-Practice.html"><li>Best Practice</li></a>
+          <a href="pages/Publication.html"><li>Publicatio</li></a>
+        </ul>
+      </div>
+
+      <div class="footer-items">
+        <h2>Expert Interview</h2>
+        <div class="border"></div>
+        <ul>
+          <a href="pages/Garraf-Journey.html"><li>Garraf Journey</li></a>
+          <a href="pages/Our-Leader.html"><li>Our Leader</li></a>
+          <a href="pages/People-Experience.html"><li>People Experience</li></a>
+        </ul>
+      </div>
+
+      <div class="footer-items">
+        <h2>Garraf Knowledge Cafe</h2>
+        <div class="border"></div>
+        <ul>
+          <a href="pages/Knowledge-Sharing.html"><li>Knowledge Sharing</li></a>
+          <a href="pages/GKC-2018.html"><li>GKC 2018</li></a>
+          <a href="pages/GKC-2019.html"><li>GKC 2019</li></a>
+          <a href="pages/GKC-2020.html"><li>GKC 2020</li></a>
+        </ul>
+      </div>
+
+      <div class="footer-items">
+        <h2>Other Link</h2>
+        <div class="border"></div>
+        <ul>
+          <a href="https://skill.petronas.com/"><li>Skill PETRONAS</li></a>
+          <a href="https://mypetronas.com/rescisco/homepage"><li>myPETRONAS</li></a>
+        </ul>
+        <h2>Contact Us</h2>
+        <div class="border"></div>
+        <ul>
+          <li><i class="fa fa-map-marker" aria-hidden="true"></i>Garraf Base Camp, Thi Qar</li>
+          <li><i class="fa fa-phone" aria-hidden="true"></i>Ex. phone Num. : #### </li>
+          <li><i class="fa fa-envelope" aria-hidden="true"></i>oras.jawad@petronas.com.my</li>
+        </ul>
+      </div>
+
+      <div class="footer-image">
+        <img src="img/garraf.png" alt="garraf">
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      Generated by   &copy; Iraq IT Team 2020.
+    </div>
+  </div>
+</footer>
+
+</html>
